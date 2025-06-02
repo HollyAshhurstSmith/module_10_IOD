@@ -3,7 +3,7 @@ const app = express();
 
 app.use(express.json());
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to my docker image lab." });
+  res.json({ message: "Welcome to my docker image lab with git action." });
 });
 
 const PORT = process.env.PORT || 8080;
